@@ -1,0 +1,110 @@
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --meteorite: rgba(68, 37, 119, 1);
+    --pigment-indigo: rgba(83, 0, 122, 1);
+    --purple-2: rgba(105, 0, 155, 1);
+    --purple: rgba(107, 0, 145, 1);
+    --eminence: rgba(107, 47, 122, 1);
+    --seance: rgba(118, 41, 145, 1);
+    --silver: rgba(191, 191, 191, 1);
+    --fuchsia-pink: rgba(196, 81, 236, 1);
+    --heliotrope: rgba(197, 75, 255, 1);
+    --fuchsia:rgba(198, 97, 224, 1);
+    --alto: rgba(217, 217, 217, 1);
+    --snuff-2: rgba(228, 218, 255, 1);
+    --snuff: rgba(228, 219, 255, 1);
+    --blue-chalk:rgba(245, 216, 255, 1);
+    --mauve : rgba(253, 177, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xs: 20px;
+    --font-size-s: 26px;
+    --font-size-m: 30px;
+    --font-size-1: 40px;
+    --font-size-xl: 55px;
+    --font-size-xxl: 60px;
+    --font-size-xxxl: 90px;
+    --font-family-flamenco: "Flamenco";
+
+    /* Classes */
+}
+
+.flamenco-normal-purple-30px {
+    color: var(--purple-2);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-60px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-40px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-90px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-xxx1);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-55px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-x1);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-20px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-20px {
+    color: var(--fuchsia);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-25px {
+    color: var(--eminence);
+    font-family: var(--font-family-flamenco);
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-30px {
+    color: var(--black);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flamenco-normal-fuchsia-30px {
+    color: var(--snuff);
+    font-family: var(--font-family-flamenco);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,82 @@
+{# <nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid">
+    <a class="navbar-brand" href="/">VG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="/apropos">Apropos</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/categories">Catégories</a>
+        </li>
+        
+        <li class="nav-item">
+        <a class="nav-link ">Disabled</a>
+        </li>
+    </ul>
+    
+    </div>
+</div>
+</nav> #}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link href="{{ asset('css/styles.css') }}" type="text/css" rel="stylesheet">
+
+
+{# <ul class="menu cf">
+	<li>
+		<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Accueil</a>
+	</li>
+	<li>
+		<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Catégorie</a>
+		<ul class="submenu">
+			<li>
+				<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Accueil</a>
+			</li>
+			<li>
+				<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Manga</a>
+			</li>
+			<li>
+				<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Auteur</a>
+			</li>
+			<li>
+				<a href="https://discord.gg/f8YvnHW">Mon Discord</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Blog</a>
+	</li>
+	<li>
+		<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">A propos de nous</a>
+	</li>
+	<li>
+		<a href="https://www.blogger.com/blogger.g?blogID=1719501309664700552">Contactez-nous</a>
+	</li>
+</ul>
+ #}
+
+
+{# javascripts code #}
+
+	<script>
+(function ($) {
+
+$('#search-button').on('click', function (e) {
+if ($('#search-input-container').hasClass('hdn')) {
+e.preventDefault();
+$('#search-input-container').removeClass('hdn')
+return false;
+}
+});
+
+$('#hide-search-input-container').on('click', function (e) {
+e.preventDefault();
+$('#search-input-container').addClass('hdn')
+return false;
+});
+
+})(jQuery);</script>
