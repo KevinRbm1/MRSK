@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CatalogController extends AbstractController
 {
-    #[Route('/category', name: 'app_category')]
+    #[Route('/categorie', name: 'app_categorie')]
     public function category(): Response
     {
         return $this->render('catalog/category.html.twig', [
@@ -16,15 +16,15 @@ class CatalogController extends AbstractController
         ]);
     }
 
-    #[Route('/catalog', name: 'app_subcatalog')]
+    #[Route('/souscategorie', name: 'app_souscategorie')]
     public function subcatalog(): Response
     {
-        return $this->render('catalog/subcatalog.html.twig', [
+        return $this->render('catalog/subcategory.html.twig', [
             'controller_name' => 'SubcatalogController',
         ]);
     }
 
-    #[Route('/catalog', name: 'app_product')]
+    #[Route('/produit', name: 'app_produit')]
     public function product(): Response
     {
         return $this->render('catalog/product.html.twig', [

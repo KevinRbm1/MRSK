@@ -1,20 +1,73 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello CatalogController!{% endblock %}
+{% block title %}Murasaki
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+	<link href="{{ asset('css/categorie.css') }}" type="text/css" rel="stylesheet">
+	<link href="{{ asset('css/styleguide.css') }}" type="text/css" rel="styleguide">
+	<link href="{{ asset('css/navbar.css') }}" type="text/css" rel="stylesheet">
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/home/tcc/Documents/mrsk/src/Controller/CatalogController.php'|file_link(0) }}">src/Controller/CatalogController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/home/tcc/Documents/mrsk/templates/catalog/index.html.twig'|file_link(0) }}">templates/catalog/index.html.twig</a></code></li>
-    </ul>
-</div>
+		<div class="page-d-accueil screen">
+		<div class="overlap-group">
+					<div class="rectangle1st">
+		<div class="topnav">
+			<img class="blurry-abstract-1" src="css/images/1/blurry-abstract-1.png" alt="blurry-abstract 1" width="auto" height="auto"/>
+						<img class="rectangle-55" src="css/images/1/rectangle-55.svg" alt="rectangle 55"/>
+			</div>
+            
+	<title>Navigation Bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<id="main-box">
+		<div class="bar">
+			<ul>
+				<li class=""><a>Accueil</a></li>
+				<li class=""><a>Manga</a>
+					<div class="about">
+						<ul>
+							<li><a>Genre</a></li>
+							<li><a>#</a></li>
+							<li><a>#</a></li>
+							<li><a>Ressources</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a>Things to do</a>
+					<div class="things">
+						<ul>
+							<li><a>Activites</a></li>
+							<li><a>Parks</a></li>
+							<li><a>Shops</a></li>
+							<li><a>Events</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a>Contact</a></li>
+				<li><a>News</a></li>
+			</ul>
+            
+		</div> <!--end of .bar-->
+					<script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ljvjsnvh.json"
+    trigger="hover"
+    style="width:50px;height:50px;top:-163px;left:1185px">
+</lord-icon>
+			<div class="connexion valign-text-middle">Connexion</div>
+
+		</div>
+		
+
+
+
+
+			{% include "navbar.html.twig" %}
+
+
+
 {% endblock %}
+
