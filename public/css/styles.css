@@ -59,12 +59,13 @@
 .bar
 {
 	left: 0px;
-	top: -75px;
+	top: 33px;
 	position: relative;
     width: 1100px;
 	height: 40px;
 	color: white;
     margin: 30px auto;
+	margin-bottom: 50px;
     
 }
 
@@ -111,11 +112,11 @@ ul li a:hover
 }
 
 
-/* 
+
 .rectangle1st {
-	width: 1440px;
-	height: 330px;
-} */
+	width: 1940px;
+	height: 1080px;
+}
 
 
 .topnav {
@@ -124,13 +125,12 @@ ul li a:hover
 	border: 10px #000000
 }
 
-.blurry-abstract-1 {
-	background-repeat: no-repeat;
-	position: absolute;
-	object-fit: cover;
-	height: 100%;
-	width: 100%
+.ba1{
+	height: auto;
+	width: 100%;
+    cursor:pointer;
 }
+
 
 
 .menu {
@@ -148,7 +148,7 @@ ul li a:hover
 	object-fit: cover;
 	/* height: 2346px; */
 	/* width: 1440px; */
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 
@@ -180,7 +180,7 @@ ul li a:hover
 	left: 940px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 833px;
+	top: 1033px;
 	width: 255px;
 }
 
@@ -255,7 +255,7 @@ ul li a:hover
 	left: 767px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 448px;
+	top: 648px;
 	width: 602px;
 }
 
@@ -322,7 +322,7 @@ ul li a:hover
 	position: absolute;
 	text-align: center;
 	text-shadow: 0px 4px 4px #00000040;
-	top: 500px;
+	top: 700px;
 	width: 319px;
 }
 
@@ -331,7 +331,7 @@ ul li a:hover
 	height: 255px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 833px;
+	top: 1033px;
 	width: 255px;
 	border-color: var(--fuchsia-pink);
 	left: 1124px;
@@ -375,7 +375,7 @@ ul li a:hover
 	left: 940px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 1110px;
+	top: 1310px;
 	width: 255px;
 }
 
@@ -384,7 +384,7 @@ ul li a:hover
 	left: 1124px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 1110px;
+	top: 1310px;
 	width: 255px;
 }
 
@@ -460,7 +460,7 @@ ul li a:hover
 	left: 826px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 1110px;
+	top: 1310px;
 	width: 134px;
 }
 
@@ -569,7 +569,7 @@ ul li a:hover
 	left: 826px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 833px;
+	top: 1033px;
 	width: 134px;
 }
 
@@ -591,7 +591,7 @@ ul li a:hover
 	top: 1390px;
 	left: 88px;
 	width: 177.5px;
-	height: 265px;
+	height: 263px;
 }
 
 .rectangle-33 {
@@ -622,11 +622,14 @@ ul li a:hover
 }
 
 .rectangle-35 {
+	position: relative;
 	background-color: var(--silver);
 	border: 1px solid;
 	border-color: var(--fuchsia-pink);
 	height: 368px;
-	left: 88px;
+	width: 1800px;
+	left: -50px;
+	top: 423px;
 	mix-blend-mode: overlay;
 }
 
@@ -644,7 +647,7 @@ ul li a:hover
 	left: 826px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 556px;
+	top: 756px;
 	width: 134px;
 }
 
@@ -664,7 +667,7 @@ ul li a:hover
 	border-color: var(--fuchsia-pink);
 	height: 255px;
 	left: 940px;
-	top: 556px;
+	top: 756px;
 	width: 255px;
 }
 
@@ -674,7 +677,7 @@ ul li a:hover
 	left: 1124px;
 	mix-blend-mode: overlay;
 	position: absolute;
-	top: 556px;
+	top: 756px;
 	transform: rotate (90deg);
 	width: 255px;
 }
