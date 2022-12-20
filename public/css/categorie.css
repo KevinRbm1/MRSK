@@ -7,3 +7,152 @@
 	overflow: hidden;
 	width: 1440px;
 } */
+
+.col-12{
+	width: 100%;
+}
+
+.form-checkbox .checkbox{
+	left: 200px;
+	float: left;
+	padding: 4px;
+	width: 440px;
+}
+
+.form-checkbox .checkbox input{
+	display: inline-block;
+	float: left;
+}
+
+.input.larger{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.checkbox input {
+    cursor: pointer;
+    /* margin: 0 1rem 0 0; */
+    position: relative;
+}
+
+
+.checkbox input:after {
+    content: "";
+    cursor: pointer;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    top: -0.125rem;
+    width: 2rem;
+}
+
+.spoil-panel.active{
+	display: block;
+}
+
+
+#main-box
+{
+	background: url(https://cdn.discordapp.com/attachments/961913347203272704/1049672614714540052/blurry-abstract-1.png) center center fixed; 
+    background-size: cover;
+    font-family:monospace;
+	object-fit: cover;
+	width: 100%;
+}
+/* 
+.rct{
+
+	position: absolute;
+	font-weight: bold;
+	width: auto;
+	background-color: rgba(46, 0, 65, 0.425);
+	
+} */
+
+.checkbox{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #eb9aff;
+	text-shadow: rgb(255, 148, 61) 1px 0 20px;
+	top: 20px;
+}
+
+
+
+.container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.checkbox {
+    width: 100%;
+    margin: 15px auto;
+    position: relative;
+    display: block;
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    opacity: 0.00000001;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+}
+.checkbox label {
+    position: relative;
+}
+.checkbox label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.28s ease;
+    border-radius: 3px;
+    border: 2px solid #9572be;
+}
+.checkbox label:after {
+  content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid #9572be;
+    border-left: 2px solid #9572be;
+    -webkit-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    transition: transform ease 0.25s;
+    will-change: transform;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.checkbox input[type="checkbox"]:checked ~ label::before {
+    color: #9572be;
+}
+
+.checkbox input[type="checkbox"]:checked ~ label::after {
+    -webkit-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+
+.checkbox label {
+    min-height: 34px;
+    display: block;
+    padding-left: 40px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    vertical-align: sub;
+}
+.checkbox label span {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: 0;
+}
