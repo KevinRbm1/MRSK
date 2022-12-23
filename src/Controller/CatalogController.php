@@ -12,7 +12,7 @@ class CatalogController extends AbstractController
     public function category(): Response
     {
         return $this->render('catalog/category.html.twig', [
-            'controller_name' => 'CatalogController',
+            'controller_name' => 'categorie',
         ]);
     }
 
@@ -20,7 +20,7 @@ class CatalogController extends AbstractController
     public function subcatalog(): Response
     {
         return $this->render('catalog/subcategory.html.twig', [
-            'controller_name' => 'SubcatalogController',
+            'controller_name' => 'sousCategorie',
         ]);
     }
 
@@ -28,7 +28,7 @@ class CatalogController extends AbstractController
     public function product(): Response
     {
         return $this->render('catalog/product.html.twig', [
-            'controller_name' => 'ProductController',
+            'controller_name' => 'Produit',
         ]);
     }
 }

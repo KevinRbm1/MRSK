@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Entity;
-
-use App\Repository\SouscategorieRepository;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\SouscategorieRepository;
 
 #[ORM\Entity(repositoryClass: SouscategorieRepository::class)]
 class Souscategorie
@@ -36,15 +35,15 @@ class Souscategorie
         return $this;
     }
 
-    // public function getCategorie(): ?Categorie
-    // {
-    //     return $this->categorie;
-    // }
+    public function getCategorie(): ?Categorie
+    {
+        return $this->categorie;
+    }
 
-    // public function setCategorie(?Categorie $categorie): self
-    // {
-    //     $this->categorie = $categorie;
+    public function setCategorie(?Categorie $categorie): self
+    {
+        $this->categorie = $categorie;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 }
